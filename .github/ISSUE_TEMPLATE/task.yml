@@ -1,6 +1,7 @@
 name: Task / Work Item
 description: Track a specific change, maintenance item, investigation, or piece of work.
 title: "[Task]: "
+type: Task
 assignees:
   - SuperPyroManiac
 body:

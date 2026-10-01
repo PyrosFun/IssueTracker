@@ -1,6 +1,7 @@
 name: Feature Request
 description: Suggest a new feature or an improvement to existing behavior.
 title: "[Feature]: "
+type: Feature
 assignees:
   - SuperPyroManiac
 body:

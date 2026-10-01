@@ -1,6 +1,7 @@
 name: Bug Report
 description: Report something that is broken or behaving incorrectly.
 title: "[Bug]: "
+type: Bug
 assignees:
   - SuperPyroManiac
 body:
