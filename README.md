@@ -1,6 +1,6 @@
 # PyrosFun Issue Tracker
 
-> One place for bugs, feature requests, and work across PyrosFun projects.
+> One place for bugs, feature requests, and work across all my projects.
 
 This repository is the central issue tracker for my public projects. Whether something belongs to a bot, website, game plugin, or mod, this is the place to report it.
 
@@ -38,25 +38,13 @@ The links below are placeholders and will be updated with their final destinatio
 
 | Project | Description | Link |
 | --- | --- | --- |
-| **Vulcan** | Discord ticketing, incidents, dashboard, and related services. | [Project](https://example.com/vulcan) |
-| **FR Helper** | Discord support tooling and its web dashboard. | [Project](https://example.com/fr-helper) |
-| **SuperPlugins** | LSPDFR plugins and related tooling, including SuperCallouts. | [Project](https://example.com/superplugins) |
-| **Rimworld Tiered Mechs** | RimWorld mod project. | [Project](https://example.com/rimworld-tiered-mechs) |
-| **Factorio Legendary Normal** | Factorio mod project. | [Project](https://example.com/factorio-legendary-normal) |
+| **Vulcan** | Discord ticketing, incidents, dashboard, and related services. | [Project](https://www.vulcanmanager.com/) |
+| **FR Helper** | Discord support tooling and its web dashboard. | [Project](https://www.lspdfrhelper.com/) |
+| **SuperPlugins** | LSPDFR plugins and related tooling, including SuperCallouts. | [Project](https://www.lcpdfr.com/profile/232314-superpyromaniac/content/?type=downloads_file&change_section=1) |
+| **Rimworld Tiered Mechs** | RimWorld mod project. | [Project](https://steamcommunity.com/workshop/filedetails/?id=2884029577) |
+| **Factorio Legendary Normal** | Factorio mod project. | [Project](https://mods.factorio.com/mod/legendarynormal) |
 
 If your issue does not clearly fit one of these projects, use **Other** in the issue form and explain what it relates to.
-
-## How issues are organized
-
-Issues use a few different GitHub features, each with a specific purpose:
-
-- **Type** identifies whether the issue is a bug, feature, or task.
-- **Projects** organize work by product and provide the planning board.
-- **Status** tracks work through **Todo**, **In Progress**, **Done**, or **Wont Do**.
-- **Labels** add useful context such as a confirmed bug, won't-fix decision, duplicate, or other special state.
-- **Milestones** can group work toward a release or other target when needed.
-
-Some public issues may also have linked implementation issues in individual code repositories when work spans multiple components.
 
 ## Contributing
 
@@ -66,4 +54,4 @@ If you are unsure which project or component is responsible, choose the closest 
 
 ---
 
-Thanks for helping improve the projects.
+Thanks for helping improve my things.
