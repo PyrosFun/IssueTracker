@@ -1,0 +1,68 @@
+name: Task / Work Item
+description: Track a specific change, maintenance item, investigation, or piece of work.
+title: "[Task]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Before you continue
+        Make sure you selected **Task / Work Item** for specific work that needs to be completed.
+        Use Bug Report for broken behavior and Feature Request for new user-facing functionality.
+
+  - type: input
+    id: project
+    attributes:
+      label: Project
+      description: Which project does this work belong to?
+      placeholder: "Example: Vulcan, FR Helper, OS Images"
+    validations:
+      required: true
+
+  - type: input
+    id: summary
+    attributes:
+      label: Quick summary
+      description: Describe the task in one short sentence.
+      placeholder: "Example: Replace the old deployment workflow"
+    validations:
+      required: true
+
+  - type: textarea
+    id: work
+    attributes:
+      label: What needs to be done?
+      description: Describe the work clearly enough that someone can understand the goal.
+      placeholder: "Explain the change, maintenance, cleanup, or investigation needed."
+    validations:
+      required: true
+
+  - type: textarea
+    id: outcome
+    attributes:
+      label: What does complete look like?
+      description: Give a short description of the expected end result.
+      placeholder: "Example: The old workflow is removed and production deploys through..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: references
+    attributes:
+      label: Relevant links, screenshots, or files
+      description: Include anything useful for completing the task.
+      placeholder: "Related issue, documentation, screenshots, logs, etc."
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional information
+      description: Anything else worth knowing.
+      placeholder: "Constraints, notes, dependencies, or other context."
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I checked for an existing issue covering the same work.
+          required: true

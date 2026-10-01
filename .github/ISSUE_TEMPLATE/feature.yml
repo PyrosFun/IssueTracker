@@ -1,0 +1,75 @@
+name: Feature Request
+description: Suggest a new feature or an improvement to existing behavior.
+title: "[Feature]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Before you continue
+        Make sure you selected **Feature Request** because you want new or changed behavior.
+        If something is currently broken, please go back and use the Bug Report form instead.
+
+  - type: input
+    id: project
+    attributes:
+      label: Project
+      description: Which project is this request for?
+      placeholder: "Example: Vulcan, FR Helper, PFBot"
+    validations:
+      required: true
+
+  - type: input
+    id: summary
+    attributes:
+      label: Quick summary
+      description: Describe the request in one short sentence.
+      placeholder: "Example: Add ticket transcript export to the dashboard"
+    validations:
+      required: true
+
+  - type: textarea
+    id: request
+    attributes:
+      label: What would you like added or changed?
+      description: Explain the feature or improvement you want.
+      placeholder: "Describe the end result you would like to see."
+    validations:
+      required: true
+
+  - type: textarea
+    id: behavior
+    attributes:
+      label: How should it work?
+      description: Give a simple example of how you imagine using it.
+      placeholder: "Example: A button on the ticket page would export the transcript as..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: Why would this be useful?
+      description: A short explanation helps us understand the use case.
+      placeholder: "What problem would this solve or make easier?"
+
+  - type: textarea
+    id: examples
+    attributes:
+      label: Screenshots, mockups, or examples
+      description: Drag and drop images or include examples from other software if they help show the idea.
+      placeholder: "Optional."
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional information
+      description: Anything else worth knowing about the request.
+      placeholder: "Related issues, edge cases, extra ideas, etc."
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I checked for an existing issue that requests the same feature.
+          required: true

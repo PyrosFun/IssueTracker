@@ -1,0 +1,78 @@
+name: Bug Report
+description: Report something that is broken or behaving incorrectly.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Before you continue
+        Make sure you selected **Bug Report** because something is not working as intended.
+        If you are requesting new behavior or describing work that needs to be done, please go back and choose the appropriate form.
+
+  - type: input
+    id: project
+    attributes:
+      label: Project
+      description: Which project does this affect?
+      placeholder: "Example: Vulcan, FR Helper, PFBot"
+    validations:
+      required: true
+
+  - type: input
+    id: summary
+    attributes:
+      label: Quick summary
+      description: Describe the problem in one short sentence.
+      placeholder: "Example: Ticket transcripts fail to load in the dashboard"
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened?
+      description: Tell us what actually happened.
+      placeholder: "Describe the problem and what you were doing when it happened."
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What should have happened?
+      description: Describe the behavior you expected instead.
+      placeholder: "Tell us what you expected to see or happen."
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: If you can reproduce the problem, give us the shortest steps possible.
+      placeholder: |
+        1. Open ...
+        2. Click ...
+        3. See ...
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots, video, or logs
+      description: Drag and drop screenshots, recordings, or useful log snippets here when they help explain the problem.
+      placeholder: "Optional, but very helpful for visual issues."
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional information
+      description: Anything else that may help us understand or reproduce the issue.
+      placeholder: "Browser, device, version, related issue, extra context, etc."
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I checked for an existing issue that reports the same problem.
+          required: true
