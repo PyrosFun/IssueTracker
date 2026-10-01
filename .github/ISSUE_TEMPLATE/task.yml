@@ -1,6 +1,8 @@
 name: Task / Work Item
 description: Track a specific change, maintenance item, investigation, or piece of work.
 title: "[Task]: "
+assignees:
+  - SuperPyroManiac
 body:
   - type: markdown
     attributes:
@@ -14,7 +16,7 @@ body:
     attributes:
       label: Project
       description: Which project does this work belong to?
-      placeholder: "Example: Vulcan, FR Helper, OS Images"
+      placeholder: "Example: Vulcan, FR Helper, SuperCallouts"
     validations:
       required: true
 

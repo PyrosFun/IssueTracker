@@ -2,7 +2,7 @@
 
 > One place for bugs, feature requests, and work across PyrosFun projects.
 
-This repository is the central issue tracker for my projects. Whether something belongs to a bot, website, plugin, service, or another part of a project, this is the place to report it.
+This repository is the central issue tracker for my public projects. Whether something belongs to a bot, website, game plugin, or mod, this is the place to report it.
 
 ## Report something
 
@@ -40,11 +40,11 @@ The links below are placeholders and will be updated with their final destinatio
 | --- | --- | --- |
 | **Vulcan** | Discord ticketing, incidents, dashboard, and related services. | [Project](https://example.com/vulcan) |
 | **FR Helper** | Discord support tooling and its web dashboard. | [Project](https://example.com/fr-helper) |
-| **SuperPlugins** | Game plugins and related tooling. | [Project](https://example.com/superplugins) |
-| **PFBot** | PyrosFun utility and status bot. | [Project](https://example.com/pfbot) |
-| **OS Images** | Custom Fedora Atomic and Distrobox images. | [Project](https://example.com/os-images) |
-| **PyrosFun Website** | The main PyrosFun website. | [Project](https://example.com/website) |
-| **BurntGit** | Git and Discord integration tooling. | [Project](https://example.com/burntgit) |
+| **SuperPlugins** | LSPDFR plugins and related tooling, including SuperCallouts. | [Project](https://example.com/superplugins) |
+| **Rimworld Tiered Mechs** | RimWorld mod project. | [Project](https://example.com/rimworld-tiered-mechs) |
+| **Factorio Legendary Normal** | Factorio mod project. | [Project](https://example.com/factorio-legendary-normal) |
+
+If your issue does not clearly fit one of these projects, use **Other** in the issue form and explain what it relates to.
 
 ## How issues are organized
 
@@ -56,7 +56,7 @@ Issues use a few different GitHub features, each with a specific purpose:
 - **Labels** add useful context such as a confirmed bug, won't-fix decision, duplicate, or other special state.
 - **Milestones** can group work toward a release or other target when needed.
 
-Some public issues may also have linked implementation issues in the individual code repositories when work spans multiple components.
+Some public issues may also have linked implementation issues in individual code repositories when work spans multiple components.
 
 ## Contributing
 

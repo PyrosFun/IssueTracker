@@ -1,6 +1,8 @@
 name: Bug Report
 description: Report something that is broken or behaving incorrectly.
 title: "[Bug]: "
+assignees:
+  - SuperPyroManiac
 body:
   - type: markdown
     attributes:
@@ -14,7 +16,7 @@ body:
     attributes:
       label: Project
       description: Which project does this affect?
-      placeholder: "Example: Vulcan, FR Helper, PFBot"
+      placeholder: "Example: Vulcan, FR Helper, SuperCallouts"
     validations:
       required: true
 

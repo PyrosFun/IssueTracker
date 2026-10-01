@@ -1,6 +1,8 @@
 name: Feature Request
 description: Suggest a new feature or an improvement to existing behavior.
 title: "[Feature]: "
+assignees:
+  - SuperPyroManiac
 body:
   - type: markdown
     attributes:
@@ -14,7 +16,7 @@ body:
     attributes:
       label: Project
       description: Which project is this request for?
-      placeholder: "Example: Vulcan, FR Helper, PFBot"
+      placeholder: "Example: Vulcan, FR Helper, SuperCallouts"
     validations:
       required: true
 
