@@ -1,57 +1,197 @@
+<div align="center">
+
 # PyrosFun Issue Tracker
 
-> One place for bugs, feature requests, and work across all my projects.
+### Bugs, feature requests, and development across my projects.
 
-This repository is the central issue tracker for my public projects. Whether something belongs to a bot, website, game plugin, or mod, this is the place to report it.
+This is the central issue tracker for my software, websites, plugins, and mods.
 
-## Report something
+<br>
 
-Use the issue form that best matches what you need:
+[![Open an Issue](https://img.shields.io/badge/OPEN_AN_ISSUE-Report_a_bug_or_request_a_feature-238636?style=for-the-badge&logo=github)](https://github.com/PyrosFun/IssueTracker/issues/new/choose)
 
-- **Bug Report** — something is broken or behaving incorrectly.
-- **Feature Request** — you want something new or an existing feature expanded.
-- **Task / Work Item** — something specific needs to be changed, maintained, investigated, or completed.
+<br>
 
-Blank issues are disabled so reports stay consistent and useful.
+**[Browse Issues](https://github.com/PyrosFun/IssueTracker/issues)** ·
+**[View Projects](https://github.com/orgs/PyrosFun/projects)** ·
+**[PyrosFun](https://www.pyrosfun.com/)**
 
-[**Open a new issue →**](https://github.com/PyrosFun/IssueTracker/issues/new/choose)
-
-> [!IMPORTANT]
-> Choose the correct issue type before submitting. If you picked the wrong form, go back and select the right one.
-
-## What makes a useful report?
-
-You do not need to write a novel. A good issue usually needs only:
-
-1. **The project** it affects.
-2. **A short summary** of the problem or request.
-3. For bugs, **what happened** and **what you expected instead**.
-4. For features, **what you want** and roughly **how you imagine it working**.
-5. **Screenshots, video, logs, or examples** when they help explain the issue.
-6. Anything else that may be useful in **Additional information**.
-
-Before opening a new issue, please check whether the same thing has already been reported.
-
-## Projects
-
-The links below are placeholders and will be updated with their final destinations.
-
-| Project | Description | Link |
-| --- | --- | --- |
-| **Vulcan** | Discord ticketing, incidents, dashboard, and related services. | [Project](https://www.vulcanmanager.com/) |
-| **FR Helper** | Discord support tooling and its web dashboard. | [Project](https://www.lspdfrhelper.com/) |
-| **SuperPlugins** | LSPDFR plugins and related tooling, including SuperCallouts. | [Project](https://www.lcpdfr.com/profile/232314-superpyromaniac/content/?type=downloads_file&change_section=1) |
-| **Rimworld Tiered Mechs** | RimWorld mod project. | [Project](https://steamcommunity.com/workshop/filedetails/?id=2884029577) |
-| **Factorio Legendary Normal** | Factorio mod project. | [Project](https://mods.factorio.com/mod/legendarynormal) |
-
-If your issue does not clearly fit one of these projects, use **Other** in the issue form and explain what it relates to.
-
-## Contributing
-
-Keep reports focused and respectful. One issue per distinct problem or request makes discussion, tracking, and implementation much easier.
-
-If you are unsure which project or component is responsible, choose the closest match and explain what you were using when the issue occurred. The issue can be routed from there.
+</div>
 
 ---
 
-Thanks for helping improve my things.
+## Report an Issue
+
+Choose the form that best matches what you need.
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### 🐛 Bug Report
+
+Something isn't working correctly.
+
+Report unexpected behavior, errors, broken functionality, or regressions.
+
+**[Report a bug →](https://github.com/PyrosFun/IssueTracker/issues/new/choose)**
+
+</td>
+<td width="33%" valign="top">
+
+### ✨ Feature Request
+
+Have an idea for something new?
+
+Suggest new functionality or improvements to something that already exists.
+
+**[Request a feature →](https://github.com/PyrosFun/IssueTracker/issues/new/choose)**
+
+</td>
+<td width="33%" valign="top">
+
+### 🔧 Task / Work Item
+
+Something needs attention.
+
+Track maintenance, changes, investigations, or other specific development work.
+
+**[Create a work item →](https://github.com/PyrosFun/IssueTracker/issues/new/choose)**
+
+</td>
+</tr>
+</table>
+
+> [!IMPORTANT]
+> Please select the appropriate issue form when submitting. Blank issues are disabled so reports contain the information needed to review and track them.
+
+## Writing a Good Report
+
+Good reports don't need to be long. They just need enough information to understand what you're reporting.
+
+For most issues, include:
+
+- **Which project** the issue relates to.
+- A clear **summary** of the problem, request, or task.
+- For bugs, **what happened** and **what you expected to happen**.
+- For feature requests, **what you'd like to see** and how you imagine it working.
+- **Screenshots, recordings, logs, or examples** when they help explain the issue.
+- Any other context that may be useful.
+
+Before submitting, please check the existing issues to see if the same problem or idea has already been reported.
+
+<div align="center">
+
+[**Search Existing Issues →**](https://github.com/PyrosFun/IssueTracker/issues)
+
+</div>
+
+---
+
+## Projects
+
+Issues for public PyrosFun projects are tracked here regardless of which repository or platform the project lives on.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🔥 Vulcan
+
+Discord management built around moderation, tickets, incidents, appeals, logging, automation, and community operations.
+
+**[Website →](https://www.vulcanmanager.com/)**
+
+</td>
+<td width="50%" valign="top">
+
+### 🛟 FR Helper
+
+Automated support tooling for LSPDFR communities, including log analysis, troubleshooting, and community support features.
+
+**[Website →](https://www.lspdfrhelper.com/)**
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### 🚓 SuperPlugins
+
+LSPDFR plugins and related projects, including SuperCallouts and other GTA V gameplay extensions.
+
+**[View Downloads →](https://www.lcpdfr.com/profile/232314-superpyromaniac/content/?type=downloads_file&change_section=1)**
+
+</td>
+<td width="50%" valign="top">
+
+### 🤖 Tiered Mechs
+
+A RimWorld mod expanding mechanitor progression with additional mechanoid tiers.
+
+**[Steam Workshop →](https://steamcommunity.com/workshop/filedetails/?id=2884029577)**
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### ⚙️ Legendary Normal
+
+A Factorio mod providing configurable behavior for item quality and legendary items.
+
+**[Factorio Mods →](https://mods.factorio.com/mod/legendarynormal)**
+
+</td>
+<td width="50%" valign="top">
+
+### 📦 Other Projects
+
+For projects that aren't listed here, select **Other** when creating an issue and include the project name or a link.
+
+**[Browse PyrosFun repositories →](https://github.com/orgs/PyrosFun/repositories)**
+
+</td>
+</tr>
+</table>
+
+---
+
+## Issue Workflow
+
+Issues are used to track work from the initial report through completion.
+
+`New` → `Triaged` → `Planned` → `In Progress` → `Completed`
+
+Labels, milestones, and project boards may be used to provide additional information about priority, difficulty, status, or the affected project.
+
+> [!NOTE]
+> An accepted issue means it has been reviewed and tracked. It does not necessarily guarantee that a feature or change will be implemented.
+
+## A Few Guidelines
+
+Please keep each issue focused on a single bug, feature, or task. Separate issues are easier to discuss, prioritize, track, and close independently.
+
+If you're unsure which project or component is responsible, choose the closest match and describe what you were using when the problem occurred. It can be routed to the right place from there.
+
+Bug reports, feature ideas, feedback, and contributions are welcome.
+
+---
+
+<div align="center">
+
+### Help make PyrosFun projects better.
+
+Found something broken or have an idea worth building?
+
+<br>
+
+[![Create an Issue](https://img.shields.io/badge/CREATE_AN_ISSUE-Get_Started-238636?style=for-the-badge&logo=github)](https://github.com/PyrosFun/IssueTracker/issues/new/choose)
+
+<br><br>
+
+<sub>A central issue tracker for projects by <a href="https://www.pyrosfun.com/">PyrosFun</a>.</sub>
+
+</div>
