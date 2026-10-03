@@ -30,9 +30,9 @@ Choose the form that best matches what you need.
 
 ### 🐛 Bug Report
 
-Something isn't working correctly.
+Something isn't working.
 
-Report unexpected behavior, errors, broken functionality, or regressions.
+Report unexpected behavior, errors, broken functionality, or feature regressions.
 
 **[Report a bug →](https://github.com/PyrosFun/IssueTracker/issues/new/choose)**
 
@@ -96,7 +96,7 @@ Issues for public PyrosFun projects are tracked here regardless of which reposit
 <tr>
 <td width="50%" valign="top">
 
-### 🔥 Vulcan
+### Vulcan
 
 Discord management built around moderation, tickets, incidents, appeals, logging, automation, and community operations.
 
@@ -105,7 +105,7 @@ Discord management built around moderation, tickets, incidents, appeals, logging
 </td>
 <td width="50%" valign="top">
 
-### 🛟 FR Helper
+### FR Helper
 
 Automated support tooling for LSPDFR communities, including log analysis, troubleshooting, and community support features.
 
@@ -117,7 +117,7 @@ Automated support tooling for LSPDFR communities, including log analysis, troubl
 <tr>
 <td width="50%" valign="top">
 
-### 🚓 SuperPlugins
+### SuperPlugins
 
 LSPDFR plugins and related projects, including SuperCallouts and other GTA V gameplay extensions.
 
@@ -126,7 +126,7 @@ LSPDFR plugins and related projects, including SuperCallouts and other GTA V gam
 </td>
 <td width="50%" valign="top">
 
-### 🤖 Tiered Mechs
+### Tiered Mechs
 
 A RimWorld mod expanding mechanitor progression with additional mechanoid tiers.
 
@@ -138,7 +138,7 @@ A RimWorld mod expanding mechanitor progression with additional mechanoid tiers.
 <tr>
 <td width="50%" valign="top">
 
-### ⚙️ Legendary Normal
+### Legendary Normal
 
 A Factorio mod providing configurable behavior for item quality and legendary items.
 
@@ -147,7 +147,7 @@ A Factorio mod providing configurable behavior for item quality and legendary it
 </td>
 <td width="50%" valign="top">
 
-### 📦 Other Projects
+### Other Projects
 
 For projects that aren't listed here, select **Other** when creating an issue and include the project name or a link.
 
